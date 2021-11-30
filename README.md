@@ -12,3 +12,5 @@ https://trand09.github.io/run-buddy/
 
 ##Contribution
 Made with ❤️&nbsp; by [Tavon Randall]
+
+### ©2019 Run Buddy, Inc
