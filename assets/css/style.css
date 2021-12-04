@@ -11,12 +11,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute */
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* HEADER / NAV BAR STYLES START */
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -72,7 +71,9 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/* HEADER / NAVBAR STYLES END */ 
 
+/* FOOTER STYLES START */
 footer {
     background-color: var(--primary-color);
     width: 100%;
@@ -96,7 +97,9 @@ footer div {
 footer a {
     color: var(--secondary-color);
 }
+/* END FOOTER STYLES */
 
+/* STYLE ALL SECTION TAGS */
 section {
     padding: 60px;
 }
@@ -183,14 +186,15 @@ section {
 .hero-form button:hover {
     background-color: var(--tertiary-color);
 }
-/* Hero Style End */
+/* HERO STYLES END */
 
+
+/* WHAT WE DO STYLES */
 .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
-    /* add this alongside your other declarations */
     margin: 0 auto;
     text-align: center;
 }
